@@ -1,0 +1,1022 @@
+{
+  "id": "1ab2b453-9d58-ebff-6e51-990b198a1b4e",
+  "name": "Trades Candlesticks_2",
+  "creationDate": "Fri, 10 Sep 2021 03:06:52 GMT",
+  "lastUpdateDate": "Mon, 13 Sep 2021 06:07:16 GMT",
+  "thumb": null,
+  "screenDetails": [
+    {
+      "label": "Screen 1",
+      "value": "ea258966-658f-3de9-fc68-b7803ae70640"
+    }
+  ],
+  "screens": [
+    {
+      "id": "ea258966-658f-3de9-fc68-b7803ae70640",
+      "name": "Screen 1",
+      "thumb": null,
+      "widgets": [
+        {
+          "id": "f7c2a046-7e8d-b966-87d5-ec848ef3af55",
+          "layout": {
+            "row": 0,
+            "column": 0,
+            "rowSpan": 24,
+            "colSpan": 36
+          },
+          "component": {
+            "id": "cd379650-a71b-db19-6588-dc67ca534ffd",
+            "key": "Panel",
+            "options": {
+              "version": "4.4.0",
+              "Basics": {
+                "ComponentName": "panel",
+                "RelativeHeight": true,
+                "Advanced": false,
+                "UserLayout": false,
+                "Floatable": true,
+                "ColCount": 36,
+                "RowHeight": 25,
+                "RowCount": 24
+              },
+              "Style": {
+                "advanced": "",
+                "cssClasses": ""
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": 16,
+                "titleHorizontal": "Center",
+                "titleShadow": false,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [
+              {
+                "id": "8d3b7681-dd6f-6118-ad52-f22255a21f67",
+                "layout": {
+                  "row": 0,
+                  "column": 4,
+                  "rowSpan": 2,
+                  "colSpan": 32
+                },
+                "component": {
+                  "id": "5101aba8-028f-df4b-c09a-de50a29a5733",
+                  "key": "RangeSlider",
+                  "options": {
+                    "version": "4.2.1",
+                    "Basics": {
+                      "Data": {
+                        "_dashboardsType": "data",
+                        "value": "macroSliderData"
+                      },
+                      "Theme": "Dark",
+                      "Range": "",
+                      "Selected": {
+                        "_dashboardsType": "viewstate",
+                        "value": "DateSel"
+                      },
+                      "SelectedMin": "",
+                      "SelectedMax": ""
+                    },
+                    "Segments": [],
+                    "Xaxis": {
+                      "IsFixed": false,
+                      "Label": "time",
+                      "Rotation": 45,
+                      "AxisType": "Date",
+                      "AxisFormat": "YYYY-MM-DD",
+                      "Scale": "none",
+                      "FitTick": false,
+                      "ShowAll": false,
+                      "MinTickWidth": 14
+                    },
+                    "Style": {
+                      "advanced": "",
+                      "cssClasses": ""
+                    },
+                    "possibleColumns": [],
+                    "possibleLabels": [
+                      "time"
+                    ],
+                    "Alignment": {
+                      "paddingLeft": -50,
+                      "paddingRight": -50,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": -5,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0,
+                      "titlePaddingTop": 0,
+                      "titlePaddingBottom": 0
+                    },
+                    "format": {
+                      "widgetTitle": "Date Select",
+                      "titleFontSize": 10,
+                      "titleHorizontal": "Center",
+                      "titleShadow": false,
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#000000",
+                      "tileTransparentBackground": true,
+                      "tileShadow": false
+                    },
+                    "Data": [
+                      {
+                        "Color": "#0095ff",
+                        "Column": "time",
+                        "Display": "time"
+                      }
+                    ]
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [],
+                  "definitionId": "39",
+                  "hasOnSettingsChange": true
+                }
+              },
+              {
+                "id": "1adfde14-df1e-8281-ea00-3218ac95d135",
+                "layout": {
+                  "row": 5,
+                  "column": 0,
+                  "rowSpan": 19,
+                  "colSpan": 36
+                },
+                "component": {
+                  "id": "709c0c9c-ef88-3f59-891d-a6217f01c198",
+                  "key": "AnalystWidget",
+                  "options": {
+                    "version": "4.2.1",
+                    "Basics": {
+                      "Data": {
+                        "_dashboardsType": "data",
+                        "value": "ggPlot"
+                      },
+                      "Selected": ""
+                    },
+                    "Style": {
+                      "advanced": "",
+                      "cssClasses": ""
+                    },
+                    "Alignment": {
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0,
+                      "titlePaddingTop": 7,
+                      "titlePaddingBottom": 7
+                    },
+                    "format": {
+                      "titleFontSize": 16,
+                      "titleHorizontal": "Center",
+                      "titleShadow": false,
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#000000",
+                      "tileTransparentBackground": true,
+                      "tileShadow": false
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [],
+                  "definitionId": "1004",
+                  "hasOnSettingsChange": true
+                }
+              },
+              {
+                "id": "86c6f941-c70f-4706-4201-25039db295a0",
+                "layout": {
+                  "row": 0,
+                  "column": 0,
+                  "rowSpan": 2,
+                  "colSpan": 4
+                },
+                "component": {
+                  "id": "905311c0-f76d-17c1-7cb7-0ecdebd0f0c3",
+                  "key": "BasicComponents",
+                  "options": {
+                    "version": "4.5.0",
+                    "dropdownPossibleValues": [
+                      ""
+                    ],
+                    "Basics": {
+                      "Data": "",
+                      "SelectedValue": {
+                        "_dashboardsType": "viewstate",
+                        "value": "selRange"
+                      },
+                      "ComponentName": "dropdown",
+                      "DataSourceMapping": {
+                        "Value": "",
+                        "Text": ""
+                      },
+                      "Items": [
+                        {
+                          "Value": "Month",
+                          "Text": "Month"
+                        },
+                        {
+                          "Value": "Week",
+                          "Text": "Week"
+                        },
+                        {
+                          "Value": "Day",
+                          "Text": "Day"
+                        },
+                        {
+                          "Value": "Hour",
+                          "Text": "Hour"
+                        },
+                        {
+                          "Value": "Minute",
+                          "Text": "Minute"
+                        }
+                      ],
+                      "Width": 100,
+                      "Theme": "Dark",
+                      "Label": "Range Type",
+                      "LabelWidth": 75,
+                      "MultiSelect": false,
+                      "ShowSearch": false,
+                      "AdvancedSearch": false,
+                      "AcceptEmptyValues": false,
+                      "ForceSelectedValue": false,
+                      "FieldSummaryThreshold": 5,
+                      "TooltipSummaryThreshold": 10,
+                      "SelectAllValue": "",
+                      "horizontal": "Center",
+                      "vertical": "Middle",
+                      "tooltip": ""
+                    },
+                    "Actions": [],
+                    "Style": {
+                      "advanced": "",
+                      "cssClasses": ""
+                    },
+                    "Alignment": {
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0,
+                      "titlePaddingTop": 7,
+                      "titlePaddingBottom": 7
+                    },
+                    "format": {
+                      "titleFontSize": 16,
+                      "titleHorizontal": "Center",
+                      "titleShadow": false,
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#000000",
+                      "tileTransparentBackground": true,
+                      "tileShadow": false
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [],
+                  "definitionId": "16",
+                  "hasOnSettingsChange": true
+                }
+              },
+              {
+                "id": "845458ca-b48d-c65f-7dcf-7fa57821862a",
+                "layout": {
+                  "row": 2,
+                  "column": 0,
+                  "rowSpan": 2,
+                  "colSpan": 36
+                },
+                "component": {
+                  "id": "a2b98e9a-ce31-8225-8df3-25d2576d5d94",
+                  "key": "RangeSlider",
+                  "options": {
+                    "version": "4.2.1",
+                    "Basics": {
+                      "Data": {
+                        "_dashboardsType": "data",
+                        "value": "microSliderData"
+                      },
+                      "Theme": "Dark",
+                      "Range": "",
+                      "Selected": {
+                        "_dashboardsType": "viewstate",
+                        "value": "selRangeNum"
+                      },
+                      "SelectedMin": "",
+                      "SelectedMax": ""
+                    },
+                    "Segments": [],
+                    "Xaxis": {
+                      "IsFixed": false,
+                      "Label": "nums",
+                      "Rotation": 0,
+                      "AxisType": "Number",
+                      "AxisFormat": "YYYY-MM-DD HH:mm:ss",
+                      "Scale": "none",
+                      "FitTick": true,
+                      "ShowAll": false,
+                      "MinTickWidth": 15
+                    },
+                    "Style": {
+                      "advanced": "",
+                      "cssClasses": ""
+                    },
+                    "possibleColumns": [],
+                    "possibleLabels": [
+                      "nums"
+                    ],
+                    "Alignment": {
+                      "paddingLeft": -50,
+                      "paddingRight": -50,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": -5,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0,
+                      "titlePaddingTop": 0,
+                      "titlePaddingBottom": 0
+                    },
+                    "format": {
+                      "widgetTitle": "Range Select",
+                      "titleFontSize": 10,
+                      "titleHorizontal": "Center",
+                      "titleShadow": false,
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#000000",
+                      "tileTransparentBackground": true,
+                      "tileShadow": false
+                    },
+                    "Data": [
+                      {
+                        "Color": "#0095ff",
+                        "Column": "nums",
+                        "Display": "nums"
+                      }
+                    ]
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [],
+                  "definitionId": "39",
+                  "hasOnSettingsChange": true
+                }
+              },
+              {
+                "id": "1d65ef5b-cdb4-b26d-7b43-c37bd9e071d6",
+                "layout": {
+                  "row": 4,
+                  "column": 4,
+                  "rowSpan": 1,
+                  "colSpan": 8
+                },
+                "component": {
+                  "id": "e0d01042-d81c-efbc-81d2-02b6095a60a3",
+                  "key": "BasicComponents",
+                  "options": {
+                    "version": "4.5.0",
+                    "Basics": {
+                      "ComponentName": "label",
+                      "HtmlText": {
+                        "_dashboardsType": "viewstate",
+                        "value": "DateSel"
+                      },
+                      "Data": "",
+                      "Template": "",
+                      "Theme": "Dark",
+                      "FontSize": "13",
+                      "horizontal": "Center",
+                      "vertical": "Middle",
+                      "tooltip": "",
+                      "AllowUnsafeContent": false,
+                      "version": "4.2.0s2"
+                    },
+                    "Style": {
+                      "advanced": "",
+                      "cssClasses": ""
+                    },
+                    "Alignment": {
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0,
+                      "titlePaddingTop": 7,
+                      "titlePaddingBottom": 7
+                    },
+                    "format": {
+                      "titleFontSize": 16,
+                      "titleHorizontal": "Center",
+                      "titleShadow": false,
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#000000",
+                      "tileTransparentBackground": true,
+                      "tileShadow": false
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [],
+                  "definitionId": "17",
+                  "hasOnSettingsChange": true
+                }
+              },
+              {
+                "id": "0c92169e-27df-235d-a211-b43f285172fb",
+                "layout": {
+                  "row": 4,
+                  "column": 30,
+                  "rowSpan": 1,
+                  "colSpan": 6
+                },
+                "component": {
+                  "id": "f638f1fe-70de-7b82-4eee-e859c365384d",
+                  "key": "BasicComponents",
+                  "options": {
+                    "version": "4.5.0",
+                    "Basics": {
+                      "ComponentName": "label",
+                      "HtmlText": "",
+                      "Data": {
+                        "_dashboardsType": "data",
+                        "value": "dud"
+                      },
+                      "Template": "+/- {{[$selRangeNum$]}}&nbsp;{{[$selRange$]}}s",
+                      "Theme": "Dark",
+                      "FontSize": "13",
+                      "horizontal": "Center",
+                      "vertical": "Middle",
+                      "tooltip": "",
+                      "AllowUnsafeContent": false,
+                      "version": "4.2.0s2"
+                    },
+                    "Style": {
+                      "advanced": "",
+                      "cssClasses": ""
+                    },
+                    "Alignment": {
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0,
+                      "titlePaddingTop": 7,
+                      "titlePaddingBottom": 7
+                    },
+                    "format": {
+                      "titleFontSize": 16,
+                      "titleHorizontal": "Center",
+                      "titleShadow": false,
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#000000",
+                      "tileTransparentBackground": true,
+                      "tileShadow": false
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [],
+                  "definitionId": "17",
+                  "hasOnSettingsChange": true
+                }
+              },
+              {
+                "id": "7eee8398-ae59-bede-eb81-2cfe3cd741b8",
+                "layout": {
+                  "row": 4,
+                  "column": 0,
+                  "rowSpan": 1,
+                  "colSpan": 4
+                },
+                "component": {
+                  "id": "8b31ecaa-d3b3-49bc-80a2-baf77213928d",
+                  "key": "BasicComponents",
+                  "options": {
+                    "version": "4.5.0",
+                    "Basics": {
+                      "ComponentName": "label",
+                      "HtmlText": "Selected Time:",
+                      "Template": "",
+                      "Theme": "Dark",
+                      "FontSize": "13",
+                      "horizontal": "Center",
+                      "vertical": "Middle",
+                      "tooltip": "",
+                      "AllowUnsafeContent": false,
+                      "version": "4.2.0s2"
+                    },
+                    "Style": {
+                      "advanced": "",
+                      "cssClasses": ""
+                    },
+                    "Alignment": {
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0,
+                      "titlePaddingTop": 7,
+                      "titlePaddingBottom": 7
+                    },
+                    "format": {
+                      "titleFontSize": 16,
+                      "titleHorizontal": "Center",
+                      "titleShadow": false,
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#000000",
+                      "tileTransparentBackground": true,
+                      "tileShadow": false
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [],
+                  "definitionId": "17",
+                  "hasOnSettingsChange": true
+                }
+              },
+              {
+                "id": "88c449db-b28f-c514-7d2c-731bd4246b73",
+                "layout": {
+                  "row": 4,
+                  "column": 26,
+                  "rowSpan": 1,
+                  "colSpan": 4
+                },
+                "component": {
+                  "id": "cd60f7cd-b770-531c-846c-16a613ffc559",
+                  "key": "BasicComponents",
+                  "options": {
+                    "version": "4.5.0",
+                    "Basics": {
+                      "ComponentName": "label",
+                      "HtmlText": "Selected Range:",
+                      "Data": "",
+                      "Template": "",
+                      "Theme": "Dark",
+                      "FontSize": "13",
+                      "horizontal": "Center",
+                      "vertical": "Middle",
+                      "tooltip": "",
+                      "AllowUnsafeContent": false,
+                      "version": "4.2.0s2"
+                    },
+                    "Style": {
+                      "advanced": "",
+                      "cssClasses": ""
+                    },
+                    "Alignment": {
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0,
+                      "titlePaddingTop": 7,
+                      "titlePaddingBottom": 7
+                    },
+                    "format": {
+                      "titleFontSize": 16,
+                      "titleHorizontal": "Center",
+                      "titleShadow": false,
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#000000",
+                      "tileTransparentBackground": true,
+                      "tileShadow": false
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [],
+                  "definitionId": "17",
+                  "hasOnSettingsChange": true
+                }
+              }
+            ],
+            "definitionId": "50",
+            "hasOnSettingsChange": true
+          },
+          "sectionId": "section_1042"
+        }
+      ],
+      "relativeHeight": true,
+      "rowCount": 24,
+      "rowHeight": 25,
+      "colCount": 36,
+      "floatable": true,
+      "isDefault": true
+    }
+  ],
+  "popups": [],
+  "tags": [],
+  "dashboardTheme": "Dark",
+  "themeSwitchable": true,
+  "saveTimestamp": null,
+  "relativeHeight": true,
+  "rowCount": 24,
+  "rowHeight": 25,
+  "colCount": 36,
+  "floatable": true,
+  "viewState": {
+    ".settings": {},
+    "selectedVal": {
+      "_viewType": true,
+      "_type": "int",
+      "_default": 1
+    },
+    "DateSel": {
+      "_viewType": true,
+      "_type": "timestamp",
+      "_default": "T-30",
+      "_rolling": true
+    },
+    "selRange": {
+      "_viewType": true,
+      "_type": "symbol",
+      "_default": "Day"
+    },
+    "selRangeNum": {
+      "_viewType": true,
+      "_type": "int",
+      "_default": 1
+    }
+  },
+  "data": {
+    "ggPlot": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "id"
+      ],
+      "_dataType": "analytic",
+      "_dataSource": "kdb",
+      "_connection": "analyst",
+      "_mappings": {
+        "key": "id",
+        "mappings": {},
+        "value": ""
+      },
+      "_maxRows": 2000,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": false,
+          "weight": 2
+        }
+      ],
+      "_selectedAnalytic": "ggPlotQuery",
+      "_analyticParams": [
+        {
+          "id": "startTime",
+          "name": "startTime",
+          "type": "timestamp",
+          "description": "",
+          "required": false,
+          "value": "<%DateSel%>",
+          "isViewState": true
+        },
+        {
+          "id": "rangeType",
+          "name": "rangeType",
+          "type": "symbol",
+          "description": "",
+          "required": false,
+          "value": "<%selRange%>",
+          "isViewState": true
+        },
+        {
+          "id": "rangeNum",
+          "name": "rangeNum",
+          "type": "int",
+          "description": "",
+          "required": false,
+          "value": "<%selRangeNum%>",
+          "isViewState": true
+        }
+      ],
+      "_analyticParameters": [
+        {
+          "id": "startTime",
+          "name": "startTime",
+          "type": "timestamp",
+          "description": "",
+          "required": false,
+          "value": "<%DateSel%>",
+          "isViewState": true
+        },
+        {
+          "id": "rangeType",
+          "name": "rangeType",
+          "type": "symbol",
+          "description": "",
+          "required": false,
+          "value": "<%selRange%>",
+          "isViewState": true
+        },
+        {
+          "id": "rangeNum",
+          "name": "rangeNum",
+          "type": "int",
+          "description": "",
+          "required": false,
+          "value": "<%selRangeNum%>",
+          "isViewState": true
+        }
+      ],
+      "_subscriptionKey": "",
+      "_isStreamingSubscription": false,
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "macroSliderData": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "time"
+      ],
+      "_dataType": "analytic",
+      "_dataSource": "kdb",
+      "_connection": "analyst",
+      "_mappings": {
+        "key": "time",
+        "mappings": {},
+        "value": ""
+      },
+      "_maxRows": 2000,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_selectedAnalytic": "macroSliderQuery",
+      "_analyticParams": [
+        {
+          "id": "x",
+          "name": "x",
+          "type": "symbol",
+          "description": "",
+          "required": false,
+          "value": "",
+          "isViewState": false
+        }
+      ],
+      "_analyticParameters": [
+        {
+          "id": "x",
+          "name": "x",
+          "type": "symbol",
+          "description": "",
+          "required": false,
+          "value": "",
+          "isViewState": false
+        }
+      ],
+      "_subscriptionKey": "",
+      "_isStreamingSubscription": false,
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "microSliderData": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "nums"
+      ],
+      "_dataType": "analytic",
+      "_dataSource": "kdb",
+      "_connection": "analyst",
+      "_mappings": {
+        "key": "nums",
+        "mappings": {},
+        "value": ""
+      },
+      "_maxRows": 2000,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_selectedAnalytic": "microSliderQuery",
+      "_analyticParams": [],
+      "_analyticParameters": [],
+      "_subscriptionKey": "",
+      "_isStreamingSubscription": false,
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "dud": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_mappings": {},
+      "_maxRows": 2000,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "weight": 2,
+          "isExpanded": true
+        },
+        {
+          "weight": 1,
+          "isExpanded": false
+        },
+        {
+          "weight": 1,
+          "isExpanded": false
+        },
+        {
+          "weight": 1,
+          "isExpanded": true
+        },
+        {
+          "weight": 2,
+          "isExpanded": false
+        }
+      ],
+      "_queryString": "",
+      "_queryParams": [],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": false,
+      "_updateQueryParams": [],
+      "_updateQueryString": "",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    }
+  },
+  "permissionEntity": null,
+  "worksheetPadding": 10,
+  "widgetsSpacing": 0,
+  "borderColor": "000000",
+  "borderBackground": "000000",
+  "transparentBackground": true,
+  "borderWidth": 0,
+  "borderRounding": 0,
+  "borderSpacing": 0,
+  "borderShadow": false,
+  "saveViewerState": "enabled",
+  "enableShareDashboard": false,
+  "notifications": {
+    "Notifications": {
+      "_Version": "4.2.0s2",
+      "Enabled": true,
+      "InBrowserNotifications": false,
+      "Position": "Bottom Right",
+      "MaxVisibleCount": 3,
+      "FadeOut": 5,
+      "Icon": "fa-bell-o",
+      "Sound": "beep",
+      "SoundVolume": 100,
+      "Grouping": false,
+      "GroupingInterval": 1,
+      "triggers": []
+    }
+  },
+  "showLoadingIndicators": false,
+  "unsavedViewerPrompt": false,
+  "advancedCss": "",
+  "cssClasses": "",
+  "wasChanged": false,
+  "version": "4.6.0P1",
+  "shortcuts": [],
+  "action": "replace"
+}
