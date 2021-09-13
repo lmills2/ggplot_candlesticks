@@ -27,7 +27,7 @@ The dashboard should be configured to connect to your local developer session au
 * Inside the data source menu, click the connection manager button and update the port for the 'analyst' connection to the port that your developer session is using.
 ![image](https://user-images.githubusercontent.com/90591113/133038016-816dfed5-2043-401f-9526-25deefe966db.png)
 * Save the changes in this menu and close it.
-* Save changes to the dashboard and reload the page.
+* Save changes to the dashboard and reload the page. &nbsp;
 ![image](https://user-images.githubusercontent.com/90591113/133038289-cc1a1599-ad03-4151-86f2-91084e9f1591.png)
 ## Configuration
 By default, the code generates 1 million market trades. This number can be adjusted by changing the function call to gen_marketTrades on line 153 in Developer.
@@ -35,5 +35,5 @@ By default, the code generates 1 million market trades. This number can be adjus
 The graph can be panned left and right using the top slider control and zoomed in and out using the bottom slider control in conjunction with the Range Type dropdown.
 The top slider control selects the mid point for the graph. The bottom slider selects a time range to select data from. For example, setting the Range Type to 'Day' and the bottom slider to a value of three, the graph will show data in a 6 day range, centred on the time set by the top slider.
 ## More Information
-More information on Grammar of Graphics can be found here: https://code.kx.com/developer/libraries/grammar-of-graphics/
+More information on Grammar of Graphics can be found here: https://code.kx.com/developer/libraries/grammar-of-graphics/                
 More examples of GG Plot can be found here: https://code.kx.com/developer/gg-examples/
