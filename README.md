@@ -34,3 +34,6 @@ By default, the code generates 1 million market trades. This number can be adjus
 ## Usage
 The graph can be panned left and right using the top slider control and zoomed in and out using the bottom slider control in conjunction with the Range Type dropdown.
 The top slider control selects the mid point for the graph. The bottom slider selects a time range to select data from. For example, setting the Range Type to 'Day' and the bottom slider to a value of three, the graph will show data in a 6 day range, centred on the time set by the top slider.
+## More Information
+More information on Grammar of Graphics can be found here: https://code.kx.com/developer/libraries/grammar-of-graphics/
+More examples of GG Plot can be found here: https://code.kx.com/developer/gg-examples/
