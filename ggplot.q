@@ -1,3 +1,5 @@
+$[not "" ~ getenv[`DEVELOPER_HOME];system"l ",getenv[`DEVELOPER_HOME],"/ws/graphics.q_";'"DEVELOPER_HOME not set, run developer config file in shell before starting process"]
+
 /Setting to change the space above and below the y bounds.
 .glob.yBuffer: 2;
 .glob.dict:`Month`Week`Day`Hour`Minute!(2628000;604800;86400;3600;60); / Dictionary giving number of seconds in each range type
@@ -34,7 +36,7 @@ gen_trades: {[]
 macroSliderQuery:{ ([] time:(`timestamp$(c+1)#first l) + (1 * 60 * 60 * 1000000000) * til 1+c:24*count l:exec distinct time.date from marketTrades) };
 
 microSliderQuery:{ []
-    ([]nums:1+til 360)
+    ([]nums:1+til 30)
  };
 
 /`startTime`rangeType`rangeNum set' .debug.ggPlotQuery
@@ -69,7 +71,7 @@ candlestick : {
             .qp.s.aes[`fill; `gain]
             , .qp.s.scale[`fill; .gg.scale.colour.cat 01b!(.gg.colour.White; .gg.colour.White)]
             , .qp.s.scale[`x; .gg.scale.breaks[xbreaks] .gg.scale.format[.gg.fmt.datetime] .gg.scale.timestamp]
-            /, .qp.s.scale[`y; .gg.scale.breaks[ybreaks] .gg.scale.limits[$[0w ~ first l:reverse value exec .glob.yBuffer+max high, (min low)-.glob.yBuffer from x; 0 0f; l]] .gg.scale.linear]
+            , .qp.s.scale[`y; .gg.scale.limits[$[0w ~ first l:reverse value exec .glob.yBuffer+max high, (min low)-.glob.yBuffer from x; 0 0f; l]] .gg.scale.linear]
             , .qp.s.geom[``size!(::; 1)];
         // open/close - bar
         .qp.interval[x; `time; `open; `close]

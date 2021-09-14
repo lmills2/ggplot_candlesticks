@@ -2,7 +2,7 @@
   "id": "1ab2b453-9d58-ebff-6e51-990b198a1b4e",
   "name": "GG Plot - Candlesticks Trades",
   "creationDate": "Fri, 10 Sep 2021 03:06:52 GMT",
-  "lastUpdateDate": "Mon, 13 Sep 2021 06:42:19 GMT",
+  "lastUpdateDate": "Tue, 14 Sep 2021 03:52:57 GMT",
   "thumb": null,
   "screenDetails": [
     {
@@ -355,8 +355,8 @@
                       "AxisType": "Number",
                       "AxisFormat": "YYYY-MM-DD HH:mm:ss",
                       "Scale": "none",
-                      "FitTick": true,
-                      "ShowAll": false,
+                      "FitTick": false,
+                      "ShowAll": true,
                       "MinTickWidth": 15
                     },
                     "Style": {
@@ -716,14 +716,13 @@
   },
   "data": {
     "ggPlot": {
-      "_pagingType": "NONE",
       "_autoExec": true,
       "_columns": [
         "id"
       ],
       "_dataType": "analytic",
       "_dataSource": "kdb",
-      "_connection": "analyst",
+      "_connection": "html5evalcongroup",
       "_mappings": {
         "key": "id",
         "mappings": {},
@@ -813,6 +812,10 @@
           "isViewState": true
         }
       ],
+      "_streamingParameters": {
+        "_dashboardsType": "viewstate",
+        "value": "ggPlot/_streamingParameters"
+      },
       "_subscriptionKey": "",
       "_isStreamingSubscription": false,
       "_hasUpdateQuery": false,
@@ -822,14 +825,13 @@
       "_serverPaging": false
     },
     "macroSliderData": {
-      "_pagingType": "NONE",
       "_autoExec": true,
       "_columns": [
         "time"
       ],
       "_dataType": "analytic",
       "_dataSource": "kdb",
-      "_connection": "analyst",
+      "_connection": "html5evalcongroup",
       "_mappings": {
         "key": "time",
         "mappings": {},
@@ -856,7 +858,7 @@
           "weight": 0
         },
         {
-          "isExpanded": true,
+          "isExpanded": false,
           "weight": 2
         }
       ],
@@ -883,6 +885,10 @@
           "isViewState": false
         }
       ],
+      "_streamingParameters": {
+        "_dashboardsType": "viewstate",
+        "value": "macroSliderData/_streamingParameters"
+      },
       "_subscriptionKey": "",
       "_isStreamingSubscription": false,
       "_hasUpdateQuery": false,
@@ -892,14 +898,13 @@
       "_serverPaging": false
     },
     "microSliderData": {
-      "_pagingType": "NONE",
       "_autoExec": true,
       "_columns": [
         "nums"
       ],
       "_dataType": "analytic",
       "_dataSource": "kdb",
-      "_connection": "analyst",
+      "_connection": "html5evalcongroup",
       "_mappings": {
         "key": "nums",
         "mappings": {},
@@ -926,13 +931,17 @@
           "weight": 0
         },
         {
-          "isExpanded": true,
+          "isExpanded": false,
           "weight": 2
         }
       ],
       "_selectedAnalytic": "microSliderQuery",
       "_analyticParams": [],
       "_analyticParameters": [],
+      "_streamingParameters": {
+        "_dashboardsType": "viewstate",
+        "value": "microSliderData/_streamingParameters"
+      },
       "_subscriptionKey": "",
       "_isStreamingSubscription": false,
       "_hasUpdateQuery": false,
