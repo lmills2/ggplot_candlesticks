@@ -1,4 +1,4 @@
-# GG Plot for Dashboards - Candlesticks
+# Long / Short PnL Positions with Candles through KX Dashboards ggplot (Analyst Visual)
 This repository contains a q script and a dashboards file to demonstrate using GG Plot for dashboards, with a focus on creating a candlesticks graph.
 
  ![image](https://user-images.githubusercontent.com/90591113/133034719-69a426f5-4042-4ec0-8212-3a553a7767b8.png)
