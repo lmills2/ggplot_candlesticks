@@ -2,7 +2,7 @@
   "id": "1ab2b453-9d58-ebff-6e51-990b198a1b4e",
   "name": "GG Plot - Candlesticks Trades",
   "creationDate": "Fri, 10 Sep 2021 03:06:52 GMT",
-  "lastUpdateDate": "Tue, 14 Sep 2021 03:52:57 GMT",
+  "lastUpdateDate": "Tue, 14 Sep 2021 08:56:13 GMT",
   "thumb": null,
   "screenDetails": [
     {
@@ -103,13 +103,13 @@
                     "Xaxis": {
                       "IsFixed": false,
                       "Label": "time",
-                      "Rotation": 45,
+                      "Rotation": 0,
                       "AxisType": "Date",
                       "AxisFormat": "YYYY-MM-DD",
                       "Scale": "none",
-                      "FitTick": false,
+                      "FitTick": true,
                       "ShowAll": false,
-                      "MinTickWidth": 14
+                      "MinTickWidth": 10
                     },
                     "Style": {
                       "advanced": "",
@@ -134,8 +134,8 @@
                       "titlePaddingBottom": 0
                     },
                     "format": {
-                      "widgetTitle": "Date Select",
-                      "titleFontSize": 10,
+                      "widgetTitle": "Chart Pan",
+                      "titleFontSize": 20,
                       "titleHorizontal": "Center",
                       "titleShadow": false,
                       "tileBorderWidth": 0,
@@ -163,9 +163,9 @@
               {
                 "id": "1adfde14-df1e-8281-ea00-3218ac95d135",
                 "layout": {
-                  "row": 5,
+                  "row": 3,
                   "column": 0,
-                  "rowSpan": 19,
+                  "rowSpan": 21,
                   "colSpan": 36
                 },
                 "component": {
@@ -220,9 +220,9 @@
               {
                 "id": "86c6f941-c70f-4706-4201-25039db295a0",
                 "layout": {
-                  "row": 0,
+                  "row": 2,
                   "column": 0,
-                  "rowSpan": 2,
+                  "rowSpan": 1,
                   "colSpan": 4
                 },
                 "component": {
@@ -268,7 +268,7 @@
                       ],
                       "Width": 100,
                       "Theme": "Dark",
-                      "Label": "Range Type",
+                      "Label": "Granluarity",
                       "LabelWidth": 75,
                       "MultiSelect": false,
                       "ShowSearch": false,
@@ -323,10 +323,10 @@
               {
                 "id": "845458ca-b48d-c65f-7dcf-7fa57821862a",
                 "layout": {
-                  "row": 2,
+                  "row": 0,
                   "column": 0,
                   "rowSpan": 2,
-                  "colSpan": 36
+                  "colSpan": 4
                 },
                 "component": {
                   "id": "a2b98e9a-ce31-8225-8df3-25d2576d5d94",
@@ -355,9 +355,9 @@
                       "AxisType": "Number",
                       "AxisFormat": "YYYY-MM-DD HH:mm:ss",
                       "Scale": "none",
-                      "FitTick": false,
-                      "ShowAll": true,
-                      "MinTickWidth": 15
+                      "FitTick": true,
+                      "ShowAll": false,
+                      "MinTickWidth": 5
                     },
                     "Style": {
                       "advanced": "",
@@ -382,8 +382,8 @@
                       "titlePaddingBottom": 0
                     },
                     "format": {
-                      "widgetTitle": "Range Select",
-                      "titleFontSize": 10,
+                      "widgetTitle": "Chart Zoom",
+                      "titleFontSize": 20,
                       "titleHorizontal": "Center",
                       "titleShadow": false,
                       "tileBorderWidth": 0,
@@ -411,10 +411,10 @@
               {
                 "id": "1d65ef5b-cdb4-b26d-7b43-c37bd9e071d6",
                 "layout": {
-                  "row": 4,
-                  "column": 4,
+                  "row": 2,
+                  "column": 31,
                   "rowSpan": 1,
-                  "colSpan": 8
+                  "colSpan": 5
                 },
                 "component": {
                   "id": "e0d01042-d81c-efbc-81d2-02b6095a60a3",
@@ -477,10 +477,10 @@
               {
                 "id": "0c92169e-27df-235d-a211-b43f285172fb",
                 "layout": {
-                  "row": 4,
-                  "column": 30,
+                  "row": 2,
+                  "column": 7,
                   "rowSpan": 1,
-                  "colSpan": 6
+                  "colSpan": 3
                 },
                 "component": {
                   "id": "f638f1fe-70de-7b82-4eee-e859c365384d",
@@ -543,10 +543,10 @@
               {
                 "id": "7eee8398-ae59-bede-eb81-2cfe3cd741b8",
                 "layout": {
-                  "row": 4,
-                  "column": 0,
+                  "row": 2,
+                  "column": 28,
                   "rowSpan": 1,
-                  "colSpan": 4
+                  "colSpan": 3
                 },
                 "component": {
                   "id": "8b31ecaa-d3b3-49bc-80a2-baf77213928d",
@@ -605,10 +605,10 @@
               {
                 "id": "88c449db-b28f-c514-7d2c-731bd4246b73",
                 "layout": {
-                  "row": 4,
-                  "column": 26,
+                  "row": 2,
+                  "column": 4,
                   "rowSpan": 1,
-                  "colSpan": 4
+                  "colSpan": 3
                 },
                 "component": {
                   "id": "cd60f7cd-b770-531c-846c-16a613ffc559",
@@ -700,22 +700,23 @@
     "DateSel": {
       "_viewType": true,
       "_type": "timestamp",
-      "_default": "T-30",
+      "_default": "T-25",
       "_rolling": true
     },
     "selRange": {
       "_viewType": true,
       "_type": "symbol",
-      "_default": "Day"
+      "_default": "Hour"
     },
     "selRangeNum": {
       "_viewType": true,
       "_type": "int",
-      "_default": 1
+      "_default": 12
     }
   },
   "data": {
     "ggPlot": {
+      "_pagingType": "NONE",
       "_autoExec": true,
       "_columns": [
         "id"
@@ -812,10 +813,6 @@
           "isViewState": true
         }
       ],
-      "_streamingParameters": {
-        "_dashboardsType": "viewstate",
-        "value": "ggPlot/_streamingParameters"
-      },
       "_subscriptionKey": "",
       "_isStreamingSubscription": false,
       "_hasUpdateQuery": false,
@@ -825,6 +822,7 @@
       "_serverPaging": false
     },
     "macroSliderData": {
+      "_pagingType": "NONE",
       "_autoExec": true,
       "_columns": [
         "time"
@@ -885,10 +883,6 @@
           "isViewState": false
         }
       ],
-      "_streamingParameters": {
-        "_dashboardsType": "viewstate",
-        "value": "macroSliderData/_streamingParameters"
-      },
       "_subscriptionKey": "",
       "_isStreamingSubscription": false,
       "_hasUpdateQuery": false,
@@ -898,6 +892,7 @@
       "_serverPaging": false
     },
     "microSliderData": {
+      "_pagingType": "NONE",
       "_autoExec": true,
       "_columns": [
         "nums"
@@ -938,10 +933,6 @@
       "_selectedAnalytic": "microSliderQuery",
       "_analyticParams": [],
       "_analyticParameters": [],
-      "_streamingParameters": {
-        "_dashboardsType": "viewstate",
-        "value": "microSliderData/_streamingParameters"
-      },
       "_subscriptionKey": "",
       "_isStreamingSubscription": false,
       "_hasUpdateQuery": false,
