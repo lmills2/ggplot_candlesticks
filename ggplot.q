@@ -136,7 +136,7 @@ getTrades: { [mt; t; microStartTime; microEndTime; lims]
     d1:update endY:getY[origSX; origEX; origSY; origEY;?[origEX > microEndTime; microEndTime; origEX]], 
         endX:?[origEX > microEndTime; microEndTime; origEX] from d1 where (endX > microEndTime) or (microStartTime > endX);
     /Rename the columns and order them so they display nicely in the tooltip.
-    ?[d1; (); 0b; ((`$("Trade ID"; "Time Entered"; "Price Entered"; "Time Exited"; "Price Exited"; "Profit"; "Trade Size"; "Start Side"; "End Side")),`startX`startY`endX`endY`startVis`endVis)!(`tradeid`origSX`origSY`origEX`origEY`profit`tradeSize`startSide`endSide`startX`startY`endX`endY,((?;(=;`origSX;`startX);1;0);(?;(=;`origEX;`endX);1;0)))]
+    ?[d1; (); 0b; ((`$("Trade ID"; "Time Entered"; "Price Entered"; "Time Exited"; "Price Exited"; "Profit"; "Trade Size"; "Start Side"; "End Side")),`startX`startY`endX`endY`startVis`endVis)!(`tradeid`origSX`origSY`origEX`origEY`profit`tradeSize`startSide`endSide`startX`startY`endX`endY,((?;(=;`origSX;`startX);150;0);(?;(=;`origEX;`endX);150;0)))]
  };
 
 /Function to calculate x pos on a line for given y
